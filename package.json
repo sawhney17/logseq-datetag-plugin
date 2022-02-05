@@ -1,0 +1,28 @@
+{
+  "name": "logseq-datetag-plugin",
+  "version": "1.0",
+  "description": "Insert the block creation date as an appended tag",
+  "main": "dist/index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build --no-source-maps index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "Aryan Sawhney",
+  "license": "MIT",
+  "dependencies": {
+    "@logseq/libs": "0.0.1-alpha.34",
+    "logseq-dateutils": "^0.0.12"
+  },
+  "logseq": {
+    "id": "logseq-datetag-plugin",
+    "title": "logseq-datetag-plugin",
+    "icon": "./icon.png"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
