@@ -5,3 +5,5 @@
 ## Getting started
 - In your config.edn file for the specific database you want, set `enable-block-timestamps` to true
 - Restart your app and either right click the bullet or use the slash command
+
+<a href="https://www.flaticon.com/free-icons/date" title="date icons">Date icons created by Freepik - Flaticon</a>
